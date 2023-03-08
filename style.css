@@ -1,0 +1,203 @@
+body{
+  font-family: 'Kantumruy', sans-serif;
+}
+
+.header {
+  display: flex;
+  margin-top:-15px;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  justify-content: center;
+
+}
+.container{
+  width:100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url(image/rainbow.jpg)
+ 
+}
+
+button {
+  background-color: #320922; 
+  border-radius: 15px;
+  color: white; 
+  padding: 15px 32px;
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block;
+  font-size: 16px; 
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button:hover {
+  color: rgb(0, 0, 0);
+  background-color: antiquewhite;
+}
+.content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Main-tittle{
+  text-align: center;
+  color: rgb(14, 14, 105);
+}
+
+.allItem{ 
+display: flex;
+flex-grow: 1;
+justify-content: space-evenly;
+
+}
+.item{
+width: calc(98%/3);
+
+}
+.item img{
+
+  width: 100%;
+}
+
+.second-block{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left{
+  width: 50%;
+}
+.right{
+  width: 50%;
+
+}
+.section-item{
+  width: 600px;
+  height: 400px;
+}
+
+.section-container{
+  color: rgb(14, 14, 105);
+margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.section-item.left h3{
+
+  text-align: center;
+  
+
+}
+.section-item.left h4{
+  text-align: center;
+}
+.section-item p{
+  text-align: center;
+
+}
+
+.section-item.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+.section-item.right img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.Service article{
+  text-align: center;
+  font-size: 32px;
+  color: rgb(14, 14, 105);
+}
+
+.icon{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  padding: 40px;
+}
+.icon-item{
+  width: 300px;
+  margin: 15px;
+}
+
+.icon-item p{
+  font-family: 'kantumruy';
+  color: rgb(14, 14, 105);
+  font-size: 17px;
+  text-align: center;
+}
+.icon-item h1{
+  font-family: 'kantumruy';
+  color: rgb(14, 14, 105);
+  text-align: center;
+}
+.icon-item i{
+  text-align: center;
+  display: block;
+  color: rgb(14, 14, 105);
+}
+.icon-item:hover {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+.footer-img article{
+  justify-content: center; 
+   font-size: 32px;
+  color: rgb(14, 14, 105);
+  display: flex;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
+.gallery >div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+
+}
+
+.gallery > div > img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 7px;
+}
+
+.gallery{
+  display: grid;
+  grid-gap:5px ;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-auto-rows: 200px;
+grid-auto-flow: dense;
+}
+
+.gallery img:hover {
+  opacity: 0.7;
+}
